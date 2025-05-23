@@ -12,3 +12,4 @@
 /Users/suleiman/Documents/repo/MyFirstApp/obj/Debug/net8.0/MyFirstApp.pdb
 /Users/suleiman/Documents/repo/MyFirstApp/obj/Debug/net8.0/MyFirstApp.genruntimeconfig.cache
 /Users/suleiman/Documents/repo/MyFirstApp/obj/Debug/net8.0/ref/MyFirstApp.dll
+/Users/suleiman/Documents/repo/MyFirstApp/obj/Debug/net8.0/MyFirstApp.sourcelink.json

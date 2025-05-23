@@ -87,31 +87,89 @@ if (isMale || isTall)
 // Console.WriteLine(GetMax(2, 11));
 
 
+// static int getMin( int num3, int num4){
+//     if (num3 < num4)
+//     {
+//         return num3;
+//     }else {
+//         return num4;
+//     }
+// };
+
+// Console.WriteLine(getMin(8,6));
+
+
+
+//calculator
+
+
+// Console.Write("Enter a number: ");
+
+// double num1 = Convert.ToDouble(Console.ReadLine());
+
+
+// Console.Write("Enter operator: ");
+
+// string op = Console.ReadLine();
+// Console.Write("Enter a number: ");
+
+// double num2 = Convert.ToDouble(Console.ReadLine());
+
+// if (op == "+")
+// {
+//     Console.WriteLine($"your answer is {num1 + num2}");
+// }
+// else if (op == "-")
+// {
+//     Console.WriteLine($"your answer is {num1 - num2}");
+
+// }
+// else if (op == "/")
+// {
+//     Console.WriteLine($"your answer is {num1 / num2}");
+
+// }
+// else
+// {
+//     Console.WriteLine($"your answer is {num1 * num2}");
+
+// }
+
+
+Console.Write("Enter a number: ");
+double num1 = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Enter an operator: ");
+string op = Console.ReadLine();
+
+Console.Write("Enter your second number: ");
+double num2 = Convert.ToDouble(Console.ReadLine());
+
+if (op == "+")
+{
+    Console.WriteLine($"Your ansa is {num1 + num2}");
+}
+else if (op == "-")
+{
+    Console.WriteLine($"Your ansa is {num1 - num2}");
+}
+else if (op == "*")
+{
+    Console.WriteLine($"Your ansa is {num1 * num2}");
+}
+else if (op == "/")
+{
+    Console.WriteLine($"Your ansa is {num1 / num2}");
+}else
+{
+    Console.WriteLine("invalid operator");
+}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-static int getMin( int num3, int num4){
-    if (num3 < num4)
-    {
-        return num3;
-    }else {
-        return num4;
-    }
-};
-
-Console.WriteLine(getMin(8,6));
 
 
 
