@@ -1,0 +1,14 @@
+/Users/suleiman/Documents/repo/MyFirstApp/obj/Debug/net8.0/MyFirstApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/suleiman/Documents/repo/MyFirstApp/obj/Debug/net8.0/MyFirstApp.AssemblyInfoInputs.cache
+/Users/suleiman/Documents/repo/MyFirstApp/obj/Debug/net8.0/MyFirstApp.AssemblyInfo.cs
+/Users/suleiman/Documents/repo/MyFirstApp/obj/Debug/net8.0/MyFirstApp.csproj.CoreCompileInputs.cache
+/Users/suleiman/Documents/repo/MyFirstApp/bin/Debug/net8.0/MyFirstApp
+/Users/suleiman/Documents/repo/MyFirstApp/bin/Debug/net8.0/MyFirstApp.deps.json
+/Users/suleiman/Documents/repo/MyFirstApp/bin/Debug/net8.0/MyFirstApp.runtimeconfig.json
+/Users/suleiman/Documents/repo/MyFirstApp/bin/Debug/net8.0/MyFirstApp.dll
+/Users/suleiman/Documents/repo/MyFirstApp/bin/Debug/net8.0/MyFirstApp.pdb
+/Users/suleiman/Documents/repo/MyFirstApp/obj/Debug/net8.0/MyFirstApp.dll
+/Users/suleiman/Documents/repo/MyFirstApp/obj/Debug/net8.0/refint/MyFirstApp.dll
+/Users/suleiman/Documents/repo/MyFirstApp/obj/Debug/net8.0/MyFirstApp.pdb
+/Users/suleiman/Documents/repo/MyFirstApp/obj/Debug/net8.0/MyFirstApp.genruntimeconfig.cache
+/Users/suleiman/Documents/repo/MyFirstApp/obj/Debug/net8.0/ref/MyFirstApp.dll
