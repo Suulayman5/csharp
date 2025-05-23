@@ -136,36 +136,80 @@ if (isMale || isTall)
 // }
 
 
-Console.Write("Enter a number: ");
-double num1 = Convert.ToDouble(Console.ReadLine());
+// Console.Write("Enter a number: ");
+// double num1 = Convert.ToDouble(Console.ReadLine());
 
-Console.Write("Enter an operator: ");
-string op = Console.ReadLine();
+// Console.Write("Enter an operator: ");
+// string op = Console.ReadLine();
 
-Console.Write("Enter your second number: ");
-double num2 = Convert.ToDouble(Console.ReadLine());
+// Console.Write("Enter your second number: ");
+// double num2 = Convert.ToDouble(Console.ReadLine());
 
-if (op == "+")
+// if (op == "+")
+// {
+//     Console.WriteLine($"Your ansa is {num1 + num2}");
+// }
+// else if (op == "-")
+// {
+//     Console.WriteLine($"Your ansa is {num1 - num2}");
+// }
+// else if (op == "*")
+// {
+//     Console.WriteLine($"Your ansa is {num1 * num2}");
+// }
+// else if (op == "/")
+// {
+//     Console.WriteLine($"Your ansa is {num1 / num2}");
+// }else
+// {
+//     Console.WriteLine("invalid operator");
+// }
+
+static string GetDay(int dayNum)
 {
-    Console.WriteLine($"Your ansa is {num1 + num2}");
+    string dayName;
+
+    switch (dayNum)
+    {
+        case 0:
+            dayName = "Sunday";
+            break;
+        case 1:
+            dayName = "Monday";
+            break;
+        case 2:
+            dayName = "Tuesday";
+            break;
+        case 3:
+            dayName = "Wednesday";
+            break;
+        case 4:
+            dayName = "Thursday";
+            break;
+        case 5:
+            dayName = "Friday";
+            break;
+        case 6:
+            dayName = "Saturday";
+            break;
+        default:
+            dayName = "Invalid";
+            break;
+
+    }
+
+    return dayName;
+};
+Console.Write(GetDay(2));
+
+
+int index = 24;
+
+while (index <= 26)
+{
+    Console.WriteLine($" i am {index} years old");
+    index++;
 }
-else if (op == "-")
-{
-    Console.WriteLine($"Your ansa is {num1 - num2}");
-}
-else if (op == "*")
-{
-    Console.WriteLine($"Your ansa is {num1 * num2}");
-}
-else if (op == "/")
-{
-    Console.WriteLine($"Your ansa is {num1 / num2}");
-}else
-{
-    Console.WriteLine("invalid operator");
-}
-
-
 
 
 
