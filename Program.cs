@@ -363,7 +363,18 @@ using MyFirstApp;
 
 Book book1 = new Book("timely", "pot", 85);
 Book book2 = new Book("timely", "potly", 85);
-
+Student student1 = new Student("jim", "accounting", 2.65);
+Student student2 = new Student("pat", "Art", 3.55);
+People firstPatient = new People("maggi", 22, true);
+People secondPatient = new People("tammi", 32, false);
+People thirdPatient = new People("potty", 24, true);
+People fourthPatient = new People("timmy", 29, true);
+Console.WriteLine(student1.HasHonnors());
+Console.WriteLine(student2.HasHonnors());
+Console.WriteLine(firstPatient.HasPregnant());
+Console.WriteLine(secondPatient.HasPregnant());
+Console.WriteLine(thirdPatient.HasPregnant());
+Console.WriteLine(fourthPatient.HasPregnant());
 Console.WriteLine($"{book1.title} { book2.author}");
 
 

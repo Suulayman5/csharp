@@ -10,12 +10,17 @@ namespace MyFirstApp
         public string title;
         public string author;
         public int pages;
-// constroctors
+// constructors
         public Book(string aTitle, string aAuthor, int aPages)
         {
             title = aTitle;
             author = aAuthor;
             pages = aPages;
+        }
+
+        public static implicit operator Book(Student v)
+        {
+            throw new NotImplementedException();
         }
     }
 }
